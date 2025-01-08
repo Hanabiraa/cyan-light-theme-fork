@@ -1,0 +1,21 @@
+{
+  "name": "cyan-light-theme",
+  "displayName": "Cyan Light Theme",
+  "description": "Fork colour theme from JetBrains Cyan Light Theme (original author https://github.com/OlyaB/CyanTheme)",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyan Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/theme.json"
+      }
+    ]
+  }
+}
