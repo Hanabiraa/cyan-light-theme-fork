@@ -14,7 +14,7 @@
       {
         "label": "Cyan Light Theme",
         "uiTheme": "vs",
-        "path": "./themes/theme.json"
+        "path": "./themes/cyan-color-theme.json"
       }
     ]
   }

@@ -1,0 +1,312 @@
+{
+	"name": "Cyan Light Theme",
+	"colors": {
+		"foreground": "#1d1d1d",
+
+		"activityBar.background": "#e4e6eb",
+		"activityBar.border": "#bec5cd",
+		"activityBar.foreground": "#1d1d1d",
+
+		"editor.background": "#f2f3f7",
+		"editor.foreground": "#262626",
+		"editor.selectionBackground": "#b8dde0",
+		"editor.lineHighlightBackground": "#c3d6e75e",
+		"editor.findMatchBackground": "#b8dde0",
+		"editor.findMatchHighlightBackground": "#b8e6c7c0",
+		"editor.findMatchBorder": "#000000",
+		"editor.rangeHighlightBackground": "#ffffff00",
+		"editor.wordHighlightStrongBackground": "#ffcdffc5",
+		"editor.wordHighlightBackground": "#ccccff85",
+
+		"list.activeSelectionBackground": "#3eb2c2",
+		"list.activeSelectionIconForeground": "#ffffff",
+		"list.inactiveSelectionBackground": "#d0d5db",
+
+		"menu.background": "#e4e6eb",
+		"menu.selectionBackground": "#3eb2c2",
+
+		"panelTitle.activeBorder": "#29abcb",
+
+		"scrollbarSlider.activeBackground": "#ced2d9",
+		"scrollbarSlider.background": "#e4e6eb",
+		"scrollbarSlider.hoverBackground": "#ced2d9",
+
+		"sideBar.background": "#e4e6eb",
+		"sideBar.border": "#bec5cd",
+
+		"tab.activeBorder": "#29abcb",
+		"tab.border": "#bec5cd",
+		"tab.hoverBackground": "#b9bdc999",
+		"tab.inactiveBackground": "#e4e6eb",
+
+		"titleBar.activeBackground": "#e4e6eb",
+		"titleBar.inactiveBackground": "#f2f3f7"
+	},
+	"tokenColors": [
+		// meta syntax
+		{
+			"scope": [
+				"meta.link.reference",
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#185B9E",
+			}
+		},
+		// basic syntax colors
+		{
+			"scope": ["constant.numeric"],
+			"settings": {
+				"foreground": "#0073E6"		
+			}
+		},
+		{
+			"scope": [
+				"constant.character.escape",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#000080"		
+			}
+		},
+		{
+			"scope": ["string"],
+			"settings": {
+				"foreground": "#00733B"		
+			}
+		},
+		{
+			"scope": ["keyword"],
+			"settings": {
+				"foreground": "#000080"		
+			}
+		},
+		{
+			"scope": "keyword.other.definition",
+			"settings": {
+				"foreground": "#0073E6"
+			}
+		},
+		{
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#808080"		
+			}
+		},
+		{
+			"scope": ["storage"],
+			"settings": {
+				"foreground": "#000080"		
+			}
+		},
+		{
+			"scope": [
+				"entity.name.section.group-title",
+				"entity.name.tag.localname"
+			],
+			"settings": {
+				"foreground": "#000080"		
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.localname"
+			],
+			"settings": {
+				"foreground": "#0073E6"		
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.namespace"
+			],
+			"settings": {
+				"foreground": "#660E7A"		
+			}
+		},
+		{
+			"scope": ["variable.language"],
+			"settings": {
+				"foreground": "#94558D"		
+			}
+		},
+		// support (for language if created on C-family due to https://macromates.com/manual/en/language_grammars) syntax block
+		{
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#660E7A"
+			}
+		},
+		// extend for Python
+		{
+			"scope": ["punctuation.definition.decorator.python"],
+			"settings": {
+				"foreground": "#262626"		
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.decorator.python",
+				"meta.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#808000"		
+			}
+		},
+		{
+			"scope": ["variable.parameter.function-call.python"],
+			"settings": {
+				"foreground": "#660099"		
+			}
+		},
+		{
+			"scope": ["string.quoted.docstring.multi.python"],
+			"settings": {
+				"foreground": "#808080",
+				"fontStyle": "italic"		
+			}
+		},
+		{
+			"scope": "storage.type.string.python",
+			"settings": {
+				"foreground": "#00733B"
+			}
+		},
+		{
+			"scope": "constant.character.format.placeholder.other.python",
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+		{
+			"scope": [
+				"support.type.python",
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+		{
+			"scope": [
+				"support.function.magic.python",
+				"support.variable.magic.python"
+			],
+			"settings": {
+				"foreground": "#B200B2"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.binary.single.python",
+				"storage.type.string.python string.quoted.binary.single.python"
+			],
+			"settings": {
+				"foreground": "#8A822D"
+			}
+		},
+		// extend for MarkDown
+		{
+			"scope": [
+				"markup.heading.setext.1.markdown",
+				"markup.heading.setext.2.markdown",
+
+			],
+			"settings": {
+				"foreground": "#660E7A",
+			}
+		},
+		{
+			"scope": [
+				"markup.bold.markdown"
+
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.bold.markdown"
+			],
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+		{
+			"scope": [
+				"markup.italic.markdown"
+
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+		{
+			"scope": [
+				"markup.strikethrough.markdown"
+
+			],
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": [
+				"heading.1.markdown",
+				"heading.2.markdown",
+				"heading.3.markdown",
+				"heading.4.markdown",
+				"heading.5.markdown",
+				"heading.6.markdown",
+			],
+			"settings": {
+				"foreground": "#660E7A",
+			}
+		},
+		{
+			"scope": [
+				"markup.fenced_code.block.markdown",
+				"markup.inline.raw.string.markdown",
+				"markup.raw.block.markdown",
+				"markup.quote.markdown",
+				
+			],
+			"settings": {
+				"foreground": "#00733B",
+			}
+		},
+		{
+			"scope": [
+				"meta.separator.markdown",
+				"punctuation.definition.table.markdown"
+			],
+			"settings": {
+				"foreground": "#000080",
+			}
+		},
+		// extend for INI
+		{
+			"scope": "source.ini",
+			"settings": {
+				"foreground": "#00733B"
+			}
+		}
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"selfParameter": "#94558D",
+		"clsParameter": "#94558D",
+		"typeParameter": "#94558D"
+	}
+}
