@@ -2,15 +2,35 @@
   "name": "cyan-theme-fork",
   "displayName": "Cyan Theme Fork",
   "description": "Fork colour theme from JetBrains Cyan Light Theme (original author https://github.com/OlyaB/CyanTheme)",
-  "icon": "./resources/logo.png",
   "version": "1.2.0",
   "publisher": "Hanabiraa",
+  "license": "MIT",
+  "maintainers": [
+    "Vitaly Kopylov"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hanabiraa/cyan-light-theme-fork.git"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "light",
+    "theme",
+    "color-theme",
+    "cyan",
+    "cyan-light",
+    "cyan-light-theme"
+  ],
+  "icon": "./resources/logo.png",
+  "galleryBanner": {
+    "color": "#e4e6eb",
+    "theme": "light"
+  },
   "contributes": {
     "themes": [
       {
@@ -20,9 +40,5 @@
       }
     ]
   },
-  "homepage": "https://github.com/Hanabiraa/cyan-light-theme-fork",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Hanabiraa/cyan-light-theme-fork.git"
-  }
+  "homepage": "https://github.com/Hanabiraa/cyan-light-theme-fork"
 }

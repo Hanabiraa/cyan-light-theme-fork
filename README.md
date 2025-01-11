@@ -22,7 +22,7 @@ Check that this setting has this value in `User Settings` (JSON) or in UI settin
 
 #### Python
 
-![image](./resources/python_example.png)
+![image](./resources/python-example.png)
 
 # P.S.
 
