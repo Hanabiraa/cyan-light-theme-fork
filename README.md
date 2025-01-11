@@ -22,7 +22,7 @@ Check that this setting has this value in `User Settings` (JSON) or in UI settin
 
 #### Python
 
-![image](./resources/python-example.png)
+![image](https://raw.githubusercontent.com/Hanabiraa/cyan-light-theme-fork/master/resources/python_example.png)
 
 # P.S.
 
