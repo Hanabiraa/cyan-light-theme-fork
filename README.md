@@ -18,6 +18,12 @@ Check that this setting has this value in `User Settings` (JSON) or in UI settin
 "editor.semanticHighlighting.enabled": "configuredByTheme"
 ```
 
+# How it looks
+
+#### Python
+
+![image](./resources/python_example.png)
+
 # P.S.
 
 Thanks [OlyaB](https://github.com/OlyaB) for designing this wonderful theme

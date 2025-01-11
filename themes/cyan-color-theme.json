@@ -162,7 +162,10 @@
 			}
 		},
 		{
-			"scope": ["string.quoted.docstring.multi.python"],
+			"scope": [
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.single.python"
+			],
 			"settings": {
 				"foreground": "#808080",
 				"fontStyle": "italic"		
