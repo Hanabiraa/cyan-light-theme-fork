@@ -5,6 +5,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.2.2] - 2025-01-11
 
+### Added
+
+- right color for code line numbers
+- section with supported langs in README
+
+### Changed
+
+- example screenshot
+
+### Fixed
+
+- str builtin as function call highlight
+
+## [1.2.2] - 2025-01-11
+
 ### Fixed
 
 - Image relative path to url in README

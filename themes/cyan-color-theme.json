@@ -10,7 +10,12 @@
 		"editor.background": "#f2f3f7",
 		"editor.foreground": "#262626",
 		"editor.selectionBackground": "#b8dde0",
+
 		"editor.lineHighlightBackground": "#c3d6e75e",
+		"editorLineNumber.foreground": "#808080",
+		"editorLineNumber.activeForeground": "#808080",
+		"editorLineNumber.dimmedForeground": "#808080",
+
 		"editor.findMatchBackground": "#b8dde0",
 		"editor.findMatchHighlightBackground": "#b8e6c7c0",
 		"editor.findMatchBorder": "#000000",
@@ -125,7 +130,11 @@
 			}
 		},
 		{
-			"scope": ["variable.language"],
+			"scope": [
+				"variable.language",
+				"variable.parameter.function.language.special.self.python",
+				"variable.parameter.function.language.special.cls.python"
+			],
 			"settings": {
 				"foreground": "#94558D"		
 			}
@@ -310,6 +319,7 @@
 	"semanticTokenColors": {
 		"selfParameter": "#94558D",
 		"clsParameter": "#94558D",
-		"typeParameter": "#94558D"
+		"typeParameter": "#94558D",
+		"class.builtin.overridden": "#000080",
 	}
 }
